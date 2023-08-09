@@ -1,12 +1,16 @@
 const fs = require('fs');
 const readline = require('readline');
 
-console.log(`\nKurisu's Dataset Toolkit ヽ(*ﾟдﾟ)ノｶｲﾊﾞｰ\n`)
+console.log(`
+
+Kurisu's Dataset Toolkit ヽ(*ﾟдﾟ)ノｶｲﾊﾞｰ
+
+`)
+
 
 // Function to create a JSONL formatted string
-function createJSONL(ctc, prompt, completion) {
+function createJSONL(prompt, completion) {
     const entry = {
-        ctx: ctc,
         prompt: prompt,
         completion: completion
     };
@@ -24,17 +28,15 @@ const lines = [];
 
 // Function to interactively collect lines and create JSONL
 function collectLines() {
-    rl.question('Enter a context line (or "exit" to finish): ', function(contextLine) {
-        if (contextLine.trim().toLowerCase() === 'exit') {
+    rl.question('Enter a prompt line (or "exit" to finish): ', function(promptLine) {
+        if (promptLine.trim().toLowerCase() === 'exit') {
             rl.close();
             return;
         }
 
-        rl.question('Enter a prompt line: ', function(promptLine) {
-            rl.question('Enter a completion line: ', function(completionLine) {
-                lines.push(createJSONL(contextLine, promptLine, completionLine));
-                collectLines();
-            });
+        rl.question('Enter a completion line: ', function(completionLine) {
+            lines.push(createJSONL(promptLine, completionLine));
+            collectLines();
         });
     });
 }
