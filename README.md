@@ -46,6 +46,8 @@ You can send the data by using this command:
 node Send.js
 ```
 
+It will ask you to enter a Token, it's available on the server in the "files" channel.
+
 then type the name of your file, exemple:
 
 ```
@@ -57,4 +59,3 @@ dataset.jsonl
 ![Alt text](image-1.png)
 
 
-[the bot doesnt see anything on the server using the tokens inside the code is basically useless so dont waste your time]
