@@ -29,10 +29,11 @@ node index.js
 
 # Exemple:
 
-<img width="756" alt="image" src="https://github.com/Loke-60000/manual-dataset-tool/assets/104599813/03acbe26-3200-4052-92e8-6eb6898d3e6e">
+<img width="476" alt="image" src="https://github.com/Loke-60000/manual-dataset-tool/assets/104599813/80654dc9-d2d5-47c5-bf71-571df6562cc9">
+
 
 ## Result:
 
 ```jsonl
-{"prompt":"Fear not, Christina. Or should I call you... @channeler Chris!", "completion":" Please dont call me that..."}
+{"ctx": "Kurisu dont like nicknames and is a closet @channeler", "prompt":"Fear not, Christina. Or should I call you... @channeler Chris!", "completion":" Please dont call me that..."}
 ```
