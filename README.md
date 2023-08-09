@@ -37,3 +37,24 @@ node index.js
 ```jsonl
 {"ctx": "Kurisu dont like nicknames and is a closet @channeler", "prompt":"Fear not, Christina. Or should I call you... @channeler Chris!", "completion":" Please dont call me that..."}
 ```
+
+## SENDING THE DATA
+
+You can send the data by using this command:
+
+```bash
+node Send.js
+```
+
+then type the name of your file, exemple:
+
+```
+dataset.jsonl
+```
+
+![Alt text](image.png)
+
+![Alt text](image-1.png)
+
+
+[the bot doesnt see anything on the server using the tokens inside the code is basically useless so dont waste your time]
