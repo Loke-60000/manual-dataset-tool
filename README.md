@@ -1,5 +1,5 @@
 # Dataset tool
-This guide will walk you through the steps to use the tool effectively. The tool helps in managing datasets manually. Follow these instructions to get started:
+This guide will walk you through the steps to use the tool effectively. The tool helps in creating datasets manually. Follow these instructions to get started:
 
 ## Step 1: Install Node.js
 Before using the tool, you need to have Node.js installed on your system. If you don't have it already, you can download and install it from the official website: Node.js.
