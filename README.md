@@ -1,4 +1,4 @@
-# How to Use the Tool
+# Dataset tool
 This guide will walk you through the steps to use the tool effectively. The tool helps in managing datasets manually. Follow these instructions to get started:
 
 ## Step 1: Install Node.js
@@ -24,3 +24,12 @@ node index.js
 
 <img width="868" alt="image" src="https://github.com/Loke-60000/manual-dataset-tool/assets/104599813/bd21bad2-53a6-4379-a2df-2df66ba3e9e6">
 
+# Exemple:
+
+<img width="756" alt="image" src="https://github.com/Loke-60000/manual-dataset-tool/assets/104599813/03acbe26-3200-4052-92e8-6eb6898d3e6e">
+
+## Result:
+
+```jsonl
+{"prompt":"Fear not, Christina. Or should I call you... @channeler Chris!", "completion":" Please dont call me that..."}
+```
