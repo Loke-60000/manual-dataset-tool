@@ -7,7 +7,8 @@ Before using the tool, you need to have Node.js installed on your system. If you
 ## Step 2: Open Terminal
 After installing Node.js, open a terminal on your system.
 
-<img width="484" alt="image" src="https://github.com/Loke-60000/manual-dataset-tool/assets/104599813/5d8f8a35-f7bd-4ca8-ad4a-e6d35e8ea862">
+<img width="471" alt="image" src="https://github.com/Loke-60000/manual-dataset-tool/assets/104599813/7791a72e-9651-49f6-8719-1b6b6208f187">
+
 
 Open Terminal
 
